@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fontawesome CDN -->
+  <script src="https://kit.fontawesome.com/1975416144.js" crossorigin="anonymous"></script>
+  <title>Artist's Shack</title>
+</head>
+
+<body>
+  <!-- Navbar section -->
+  <section id="navbar">
+    <div class="navbar-wrapper">
+      <h2>Artist's Shack</h2>
+      <button class="button-toggler" type="button" name="button"><i class="fa-solid fa-bars"></i></button>
+      <ul class="primary-nav" data-collapse="false">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#store">Store</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Home section-->
+  <section id="home">
+    <div class="carousel" data-carousel>
+      <button type="button" class="carousel-button prev" data-carousel-button="prev" name="button">&#8678;</button>
+      <button type="button" class="carousel-button next" data-carousel-button="next" name="button">&#8680;</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <div class="slide-container">
+            <div class="slide-content">
+              <p>"The most seductive thing about art is the personality of the artist himself."</p>
+              <h2> -Paul Cézanne</h2>
+            </div>
+            <img src="images/image-1.jpg" alt="carousel-image-1">
+          </div>
+        </li>
+        <li class="slide">
+          <div class="slide-container">
+            <div class="slide-content">
+              <p>"The purpose of art is washing the dust of daily life off our souls."</p>
+              <h2> -Pablo Picasso</h2>
+            </div>
+            <img src="images/image-2.jpg" alt="carousel-image-2">
+          </div>
+        </li>
+        <!-- <li class="slide">
+          <div class="slide-container">
+            <div class="slide-content">
+              <p>"I found I could say things with color and shapes that I couldn’t say any other way – things I had no words for."</p>
+              <h2> -Georgia O’Keeffe</h2>
+            </div>
+            <img src="images/image-3.jpg" alt="carousel-image-3">
+          </div>
+        </li> -->
+        <li class="slide">
+          <div class="slide-container">
+            <div class="slide-content">
+              <p>"If I could say it in words there would be no reason to paint."</p>
+              <h2> -Edward Hopper</h2>
+            </div>
+            <img src="images/image-4.jpg" alt="carousel-image-4">
+          </div>
+        </li>
+        <li class="slide">
+          <div class="slide-container">
+            <div class="slide-content">
+              <p>"The object of art is not to reproduce reality, but to create a reality of the same intensity."</p>
+              <h2> -Alberto Giacometti</h2>
+            </div>
+            <img src="images/image-5.jpg" alt="carousel-image-5">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Store section -->
+  <section id="store">
+    <div class="store-container">
+      <div class="store-child">
+        <img src="paintings/painting-1.jpg" alt="painting-1">
+        <div class="painting-desciption">
+          <h2>Autumn Tree</h2>
+          <p>12×16" Portrait Painting</p>
+          <p>Oil Color</p>
+        </div>
+      </div>
+      <div class="store-child">
+        <img src="paintings/painting-2.jpg" alt="painting-2">
+        <div class="painting-desciption">
+          <h2>Night Moon</h2>
+          <p>16×20" Portrait Painting</p>
+          <p>Acrylic Color</p>
+        </div>
+      </div>
+      <div class="store-child">
+        <img src="paintings/painting-3.jpg" alt="painting-3">
+        <div class="painting-desciption">
+          <h2>Shack in a Pond</h2>
+          <p>16×20" Portrait Painting</p>
+          <p>Acrylic Color</p>
+        </div>
+      </div>
+      <div class="store-child">
+        <img src="paintings/painting-4.jpg" alt="painting-4">
+        <div class="painting-desciption">
+          <h2>Forrest</h2>
+          <p>12×16" Portrait Painting</p>
+          <p>Oil Color</p>
+        </div>
+      </div>
+      <div class="store-child">
+        <img src="paintings/painting-5.jpg" alt="painting-5">
+        <div class="painting-desciption">
+          <h2>Storm Ship</h2>
+          <p>12×16" Portrait Painting</p>
+          <p>Oil Color</p>
+        </div>
+      </div>
+      <div class="store-child">
+        <img src="paintings/painting-6.jpg" alt="painting-6">
+        <div class="painting-desciption">
+          <h2>Sunset</h2>
+          <p>12×16" Portrait Painting</p>
+          <p>Oil Color</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact">
+    <ul class="contact-list">
+      <li>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <p>Instagram</p>
+      </li>
+      <li>
+        <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+        <p>Twitter</p>
+      </li>
+      <li>
+        <a href="https://www.patreon.com/"><i class="fa-brands fa-patreon"></i></a>
+        <p>Patreon</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Javascript -->
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
