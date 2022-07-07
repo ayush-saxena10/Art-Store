@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
@@ -17,8 +18,8 @@
   <section id="navbar">
     <div class="navbar-wrapper">
       <h2>Artist's Shack</h2>
-      <button class="button-toggler" type="button" name="button"><i class="fa-solid fa-bars"></i></button>
-      <ul class="primary-nav" data-collapse="false">
+      <button class="button-toggler" area-controls="primary-nav" aria-expanded="false" type="button" name="button"><i class="fa-solid fa-bars"></i></button>
+      <ul class="primary-nav" data-collapse="true">
         <li>
           <a href="#home">Home</a>
         </li>
@@ -89,53 +90,78 @@
 
   <!-- Store section -->
   <section id="store">
+    <h1 class="section-heading">Store</h1>
     <div class="store-container">
       <div class="store-child">
-        <img src="paintings/painting-1.jpg" alt="painting-1">
+        <div class="image-container">
+          <img data-hover src="paintings/painting-1.jpg" alt="painting-1">
+          <button class="btn-0" data-visible="false" type="button" name="button">Buy</button>
+        </div>
         <div class="painting-desciption">
           <h2>Autumn Tree</h2>
           <p>12×16" Portrait Painting</p>
           <p>Oil Color</p>
+          <p>₹1200</p>
         </div>
       </div>
       <div class="store-child">
-        <img src="paintings/painting-2.jpg" alt="painting-2">
+        <div class="image-container">
+          <img data-hover src="paintings/painting-2.jpg" alt="painting-2">
+          <button class="btn-1" data-visible="false" type="button" name="button">Buy</button>
+        </div>
         <div class="painting-desciption">
           <h2>Night Moon</h2>
           <p>16×20" Portrait Painting</p>
           <p>Acrylic Color</p>
+          <p>₹1800</p>
         </div>
       </div>
       <div class="store-child">
-        <img src="paintings/painting-3.jpg" alt="painting-3">
+        <div class="image-container">
+          <img data-hover src="paintings/painting-3.jpg" alt="painting-3">
+          <button class="btn-2" data-visible="false" type="button" name="button">Buy</button>
+        </div>
         <div class="painting-desciption">
           <h2>Shack in a Pond</h2>
           <p>16×20" Portrait Painting</p>
           <p>Acrylic Color</p>
+          <p>₹1800</p>
         </div>
       </div>
       <div class="store-child">
-        <img src="paintings/painting-4.jpg" alt="painting-4">
+        <div class="image-container">
+          <img data-hover src="paintings/painting-4.jpg" alt="painting-4">
+          <button class="btn-3" data-visible="false" type="button" name="button">Buy</button>
+        </div>
         <div class="painting-desciption">
           <h2>Forrest</h2>
           <p>12×16" Portrait Painting</p>
           <p>Oil Color</p>
+          <p>₹1200</p>
         </div>
       </div>
       <div class="store-child">
-        <img src="paintings/painting-5.jpg" alt="painting-5">
+        <div class="image-container">
+          <img data-hover src="paintings/painting-5.jpg" alt="painting-5">
+          <button class="btn-4" data-visible="false" type="button" name="button">Buy</button>
+        </div>
         <div class="painting-desciption">
           <h2>Storm Ship</h2>
           <p>12×16" Portrait Painting</p>
           <p>Oil Color</p>
+          <p>₹1200</p>
         </div>
       </div>
       <div class="store-child">
-        <img src="paintings/painting-6.jpg" alt="painting-6">
+        <div class="image-container">
+          <img data-hover src="paintings/painting-6.jpg" alt="painting-6">
+          <button class="btn-5" data-visible="false" type="button" name="button">Buy</button>
+        </div>
         <div class="painting-desciption">
           <h2>Sunset</h2>
           <p>12×16" Portrait Painting</p>
           <p>Oil Color</p>
+          <p>₹1200</p>
         </div>
       </div>
     </div>
@@ -143,6 +169,7 @@
 
   <!-- Contact section -->
   <section id="contact">
+    <h1 class="section-heading">Contact me</h1>
     <ul class="contact-list">
       <li>
         <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
