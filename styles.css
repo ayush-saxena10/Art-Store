@@ -140,7 +140,7 @@ p {
 }
 
 .slide-content {
-  padding: 0 10rem;
+  padding: 0 12rem;
 }
 
 .slide-content p {
@@ -173,7 +173,7 @@ p {
 
 /* Store */
 #store {
-  padding: 5% 10%;
+  padding: 5% 14%;
   display: flex;
   flex-direction: column;
   align-items: center;
