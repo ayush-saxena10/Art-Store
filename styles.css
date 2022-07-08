@@ -19,6 +19,10 @@ p {
   color: #694E4E;
 }
 
+button {
+  cursor: pointer;
+}
+
 
 .section-heading {
   font-family: 'The Nautigal', cursive;
@@ -161,7 +165,6 @@ p {
   width: 100%;
   object-fit: cover;
   height: 23rem;
-  filter: contrast(70%);
 }
 
 .slide-content {
@@ -310,7 +313,8 @@ p {
   }
 
   .primary-nav[data-collapse="true"] {
-    display: none;
+    position: absolute;
+    opacity: 0;
   }
 
   .primary-nav[data-collapse="false"] {
@@ -318,6 +322,9 @@ p {
     flex: 0 0 100%;
     gap: 1.7rem;
     padding: 3% 0;
+    position: static;
+    opacity: 1;
+    transition: opacity 300ms linear;
   }
 
   .button-toggler {
